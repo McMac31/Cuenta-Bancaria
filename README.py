@@ -1,7 +1,7 @@
 # Datos bancarios
 Valores= [] #Se crea una lista vacia
 accion = input("¿Quiere ingresar la transaccion? (s, n)") #Pregunta si quiere ingresar dinero
-while accion=="s": #Se usa el while si se usa "S"
+while accion=="s": #Se activa el while si se usa "S"
     Dinero = int(input("¿Cuanto dinero quiere introducir?")) #Pregunta el dinero a introducir
     Valores.append(Dinero) #Se le añade valores a la lista
     print("Guardando Valor...") #Le muestra al usuario que paso con el valor introducido
